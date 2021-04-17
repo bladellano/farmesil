@@ -10537,6 +10537,7 @@ img::-moz-selection {
   #mainNav .navbar-brand img {
     height: 2rem;
     transition: height 0.3s ease-in-out;
+    transform: scale(2.1);
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
@@ -10563,7 +10564,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  /*!FOCO background-image: url("../assets/img/header-bg.jpg"); */
+  background-image: url("../assets/img/bg-00.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
