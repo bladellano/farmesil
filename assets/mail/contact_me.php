@@ -1,5 +1,8 @@
 <?php
 // Check for empty fields
+
+var_dump($_REQUEST);die;
+
 if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
    empty($_POST['phone'])     ||

@@ -1,0 +1,49 @@
+.border--top {
+  border-top: 1px solid var(--link-farmesil);
+  position: relative;
+}
+
+.ball {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  background: var(--link-farmesil);
+  top: -14px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  text-align: center;
+}
+
+.ball svg {
+  margin: 7.1px;
+  color: #fff;
+}
+
+.bg-stat-number {
+  background-image: url(../assets/img/bg-transparent.jpg);
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-stat-number .counter-item {
+  color: #fff;
+}
+.calling-for-partnership {
+  padding-bottom: 30px;
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+}
+.calling-for-partnership p,
+.calling-for-partnership h3 {
+  color: #fff;
+}
+
+#partners.bg-stat-number {
+  padding: 50px 0;
+}
+
+.slick-prev:before, .slick-next:before{
+  color: var(--gray);
+}
