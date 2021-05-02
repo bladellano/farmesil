@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <!-- <title>Agency - Start Bootstrap Theme</title> -->
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FERMASIL - Qualidade ao seu alcance" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="description" content="Nossa empresa comercializa os melhores matérias, equipamentos e insumos do pais, para que com isso traga qualidade e resultados precisos para os nossos clientes.  Somos representante no estado do Pará da empresa TECNAL EQUIPAMENTOS CIENTIFICOS, uma empresa com mais de 40 anos unindo tecnologia, qualidade e tradição na fabricação e distribuição de equipamentos científicos. Estamos à disposição para melhor atender todos vocês. Equipamentos médico-hospitalares, laboratoriais, científicos e odontológicos Materiais técnicos e consumo, médico-hospitalares, laboratoriais, científicos e odontológicos Materiais de limpeza, higiene e segurança." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="http://fermasil.com.br/" />
+
+    <meta property="og:title" content="FERMASIL - Qualidade ao seu alcance" />
+    <meta property="og:description" content="Nossa empresa comercializa os melhores matérias, equipamentos e insumos do pais, para que com isso traga qualidade e resultados precisos para os nossos clientes.  Somos representante no estado do Pará da empresa TECNAL EQUIPAMENTOS CIENTIFICOS, uma empresa com mais de 40 anos unindo tecnologia, qualidade e tradição na fabricação e distribuição de equipamentos científicos. Estamos à disposição para melhor atender todos vocês. Equipamentos médico-hospitalares, laboratoriais, científicos e odontológicos Materiais técnicos e consumo, médico-hospitalares, laboratoriais, científicos e odontológicos Materiais de limpeza, higiene e segurança." />
+    <meta property="og:url" content="http://fermasil.com.br/" />
+
     <title>FERMASIL - Qualidade ao seu alcance</title>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <link rel="icon" type="image/x-icon" href="assets/img/globo.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -56,7 +70,7 @@
             <div class="masthead-subheading">Bem vindo ao nosso Site!</div>
             <div class="masthead-heading text-uppercase">A FERMASIL, Distribuidora de Equipamentos Médicos e
                 Laboratoriais</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Contate-me</a>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Contate-me</a>
         </div>
     </header>
     <!-- Services-->
@@ -384,7 +398,6 @@
         </div>
     </section>
 
-
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
@@ -396,18 +409,18 @@
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="Seu nome *"
+                            <input class="form-control" id="name" name="name" type="text" placeholder="Seu nome *"
                                 required="required" data-validation-required-message="Por favor, insira seu nome" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="Seu e-mail *"
+                            <input class="form-control" id="email" name="email" type="email" placeholder="Seu e-mail *"
                                 required="required"
                                 data-validation-required-message="Por favor, indique o seu endereço de e-mail." />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group mb-md-0">
-                            <input class="form-control" id="phone" type="tel" placeholder="Seu telefone *"
+                            <input class="form-control" id="phone" name="phone" type="tel" placeholder="Seu telefone *"
                                 required="required"
                                 data-validation-required-message="Por favor, digite seu número de telefone." />
                             <p class="help-block text-danger"></p>
@@ -415,13 +428,15 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" id="message" placeholder="Sua mensagem *" required="required"
+                            <textarea class="form-control" id="message" name="message" placeholder="Sua mensagem *"
+                                required="required"
                                 data-validation-required-message="Por favor, digite uma mensagem."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                 </div>
                 <div class="text-center">
+                    <div class="g-recaptcha" data-sitekey="6Le1mbcZAAAAAAnWnOCN7kS6xueKw82MQifMXw76"></div>
                     <div id="success"></div>
                     <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar
                         Mensagem</button>
@@ -660,7 +675,6 @@
 
     <script type="text/javascript" src="./js/slick.min.js"></script>
 
-    <!-- <script src="http://mozthemes.com/demo/lattes/js/jquery.appear.js"></script> -->
     <script src="./js/jquery.appear.js"></script>
     <!-- Contact form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
