@@ -44,6 +44,13 @@
   padding: 50px 0;
 }
 
-.slick-prev:before, .slick-next:before{
+.slick-prev:before,
+.slick-next:before {
   color: var(--gray);
+}
+
+.portfolio-hover .img-fluid {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
 }
