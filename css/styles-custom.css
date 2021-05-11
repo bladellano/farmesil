@@ -21,14 +21,14 @@
 }
 
 .bg-stat-number {
-  background-image: url(../assets/img/bg-transparent.jpg);
+  background-image: url(../assets/img/bg-01.jpg);
   background-size: cover !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .bg-stat-number .counter-item {
-  color: #fff;
+  color: #000;
 }
 .calling-for-partnership {
   padding-bottom: 30px;
@@ -37,7 +37,7 @@
 }
 .calling-for-partnership p,
 .calling-for-partnership h3 {
-  color: #fff;
+  color: #000;
 }
 
 #partners.bg-stat-number {
@@ -53,4 +53,11 @@
   height: 300px;
   width: 100%;
   object-fit: cover;
+}
+
+.slick-clients div img {
+  border-radius: 22px;
+  object-fit: cover;
+  width: 200px;
+  height: 160px;
 }
