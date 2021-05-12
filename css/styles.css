@@ -17,7 +17,7 @@
  
  */
 :root {
-  --details-farmesil: #0055b9;
+  --details-farmesil: #076110;
   --link-farmesil: #00e316;
   --blue: #007bff;
   --indigo: #6610f2;
@@ -2619,26 +2619,19 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  /*FOCO background-color: #fed136;
-  border-color: #fed136; */
   background-color: var(--details-farmesil);
   border-color: var(--details-farmesil);
 }
 .btn-primary:hover {
   color: #fff;
-  /*   background-color: #fec810;
-  border-color: #fec503; */
-  background-color: var(--blue);
-  border-color: var(--blue);
+  background-color: var(--dark);
+  border-color: var(--dark);
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  /*FOCO background-color: #fec810; */
-  background-color: var(--blue);
-  /*FOCO border-color: #fec503; */
-  border-color: var(--blue);
-  /*FOCO box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5); */
+  background-color: var(--dark);
+  border-color: var(--dark);
   box-shadow: 0 0 0 0.2rem rgba(141, 177, 255, 0.5);
 }
 .btn-primary.disabled,
@@ -2654,9 +2647,9 @@ fieldset:disabled a.btn {
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
   /*FOCO background-color: #fec503; */
-  background-color: var(--blue);
+  background-color: var(--dark);
   /*FOCO border-color: #f3bd01; */
-  border-color: var(--blue);
+  border-color: var(--dark);
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -10496,6 +10489,7 @@ img::-moz-selection {
   padding-bottom: 1rem;
   /* background-color: #212529; */
   background-color: var(--details-farmesil);
+  
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10506,7 +10500,7 @@ img::-moz-selection {
   color: #333;
   text-transform: uppercase;
   /* background-color: #fed136; */
-  background-color: var(--link-farmesil);
+  background-color: #fff;
   border: 0;
 }
 #mainNav .navbar-brand {
@@ -10532,10 +10526,9 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  /*FOCO color: #fed136; */
-  color: var(--link-farmesil);
+  color: var(--details-farmesil);
   border-radius: 7px;
-  background: darkcyan;
+  background: #fff;
 }
 
 @media (min-width: 992px) {
@@ -10618,10 +10611,10 @@ header.masthead .masthead-heading {
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     /*!FOCO font-size: 4.5rem; */
     font-weight: 700;
-    line-height: 4.5rem;
+    /* line-height: 4.5rem; */
     margin-bottom: 4rem;
   }
 }
@@ -10665,7 +10658,7 @@ header.masthead .masthead-heading {
   background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
+  font-size: .9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

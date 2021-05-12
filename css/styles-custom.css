@@ -21,11 +21,12 @@
 }
 
 .bg-stat-number {
-  background-image: url(../assets/img/bg-01.jpg);
+  background-image: url(../assets/img/partners.jpg);
   background-size: cover !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  filter: grayscale();
 }
 .bg-stat-number .counter-item {
   color: #000;
@@ -34,6 +35,8 @@
   padding-bottom: 30px;
   border: 1px solid #fff;
   margin-bottom: 10px;
+  background-color: #fff;
+  filter: opacity(77%);
 }
 .calling-for-partnership p,
 .calling-for-partnership h3 {
@@ -49,8 +52,8 @@
   color: var(--gray);
 }
 
-.portfolio-hover .img-fluid {
-  height: 300px;
+.portfolio-link .img-fluid {
+  height: 200px;
   width: 100%;
   object-fit: cover;
 }
@@ -60,4 +63,15 @@
   object-fit: cover;
   width: 200px;
   height: 160px;
+}
+
+/*===================*/
+/*   DEVICES MOBILE  */
+/*===================*/
+
+@media (max-width: 768px) {
+  .masthead-heading {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
 }
